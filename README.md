@@ -33,6 +33,7 @@ Here is a table showing the replacements:
     l;      len
     M`      Main
 
+SXCompiler edition(with Chinese Characters):
 
 	wa                      import				哇
 	ni                      input				你
