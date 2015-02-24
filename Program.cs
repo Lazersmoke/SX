@@ -1,4 +1,16 @@
-﻿using System;
+﻿//  _________   _____________  ______________________  
+//  \_____   \ /   _____/\   \/  /\____    /\_____   \ 
+//     /   __/ \_____  \  \     /   /     /    /   __/ 
+//    |   |    /        \ /     \  /     /_   |   |    
+//    |___|   /_______  //___/\  \/_______ \  |___|    
+//    <___>           \/       \_/        \/  <___>    
+//           __________          ____  ___.__          
+//           \______   \ ___.__. \   \/  /|__|         
+//    ______  |    |  _/<   |  |  \     / |  |  ______ 
+//   /_____/  |    |   \ \___  |  /     \ |  | /_____/ 
+//            |______  / / ____| /___/\  \|__|         
+//                   \/  \/            \_/             
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,7 +30,7 @@ namespace SXCompiler
             }
             else
             {
-                Console.WriteLine("ERROR: No arguments detected!\nUsage is \"SXCompiler <file>\"");
+                Console.WriteLine("ERROR: No arguments detected!\nUsage is \"SXZC <file>\"");
             }
         }
 
@@ -71,6 +83,8 @@ namespace SXCompiler
             code = code.Replace("徐", "str");//                  xu                      str
             code = code.Replace("了", "else");//                 le                      else
             code = code.Replace("也", "elif");//                 ye                      elif
+            code = code.Replace("值", "break");//                zhi                     break
+            code = code.Replace("水", "pass");//                 shui                    pass
             File.WriteAllText(s+".py", code);
             return code;
         }
@@ -123,6 +137,8 @@ namespace SXCompiler
             code = code.Replace("徐", "str");//                  xu                      str
             code = code.Replace("了", "else");//                 le                      else
             code = code.Replace("也", "elif");//                 ye                      elif
+            code = code.Replace("值", "break");//                zhi                     break
+            code = code.Replace("水", "pass");//                 shui                    pass
             return code;
         }
     }

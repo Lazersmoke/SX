@@ -95,3 +95,5 @@ SXCompiler edition(with Chinese Characters):
 	xu                      str					徐
 	le                      else				了
 	ye                      elif				也
+	shui					pass				水
+	zhi						break				值
