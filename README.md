@@ -73,7 +73,7 @@ SXCompiler edition(with Chinese Characters):
 	kai                     -=1					開
 	xian                    while True:			先
 	te                      True				特
-	fe                      False				分
+	fen                     False				分
 	nu                      None				怒
 	ri                      def __init__(self	日
 	so                      def __init__(self):	送
@@ -91,7 +91,7 @@ SXCompiler edition(with Chinese Characters):
 	aint                    is not
 	cho                     int					重
 	hu                      return				胡
-	ai                      lambada				哎
+	ai                      lambda				哎
 	xu                      str					徐
 	le                      else				了
 	ye                      elif				也
